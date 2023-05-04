@@ -1,0 +1,113 @@
+/* Estilo para el body y el header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #BAD7E9;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%2398b4c5' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+
+  }
+  
+  header {
+    background-color: #2B3467;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 50px;
+  }
+  
+  /* Estilo para la sección principal */
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #FCFFE7;
+    color: #2B3467;
+  }
+  
+  /* Estilo para los títulos */
+ h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #2B3467;
+  }
+  
+  /* Estilo para los formularios */
+  form {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  form label {
+    width: 33%;
+  }
+  
+  form select, form input {
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    background-color: #EB455F;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #EB455F;
+  }
+  
+  /* Estilo para los resultados */
+  .imcResultado, #resultado {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #EB455F;
+    border-radius: 5px;
+  }
+
+  .sombra{
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.23);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.23);
+    border-radius: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+  }
+  footer{
+    background-color: #2B3467;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  @media (min-width:768px) {
+    .contenedor {
+        width: 80%
+    }
+}
+
+@media (min-width:992px) {
+    .contenedor {
+        width: 70%
+    }
+
+}
+
+@media (min-width:480px) {
+  .contenedor {
+      width: 50%
+  }
+
+}
